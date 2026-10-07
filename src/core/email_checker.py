@@ -1,0 +1,10 @@
+APP_NAME=email-access-checker
+SECRET_KEY=change-me-super-secret-key
+DB_URL=sqlite:///./data/email_access_checker.db
+LOG_LEVEL=INFO
+MAX_WORKERS=8
+RATE_LIMIT_PER_MINUTE=60
+REQUEST_TIMEOUT_SECONDS=5.0
+TLS_REQUIRED=true
+ALLOW_CUSTOM_IMAP=true
+ALLOWED_PROVIDERS=gmail,outlook,yahoo,protonmail,custom
